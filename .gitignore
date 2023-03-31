@@ -5,7 +5,6 @@ node_modules
 *.txt
 
 #Ignore files related to API keys
-.env
 config.env
 
 #Ignore DS_STORE
