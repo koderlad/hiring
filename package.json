@@ -1,0 +1,19 @@
+{
+  "name": "hiring",
+  "version": "1.0.0",
+  "description": "Hiring: Employer Branding Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Kamlesh Shrestha",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "validator": "^13.9.0"
+  }
+}
