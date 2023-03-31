@@ -7,3 +7,7 @@ node_modules
 #Ignore files related to API keys
 .env
 config.env
+
+#Ignore DS_STORE
+.DS_STORE
+config
