@@ -41,6 +41,5 @@ const companyScheme = new mongoose.Schema({
 });
 
 //Defining Model name and variable
-
 const company = mongoose.model("Company", companyScheme);
 module.exports = company;

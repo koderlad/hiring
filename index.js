@@ -4,6 +4,7 @@ const { globalMiddleware } = require("./middleware"); //Separating Middle wares 
 
 //Requiring Route Modules
 const jobRouter = require("./routes/jobRoutes");
+const userRouter = require("./routes/userRoutes");
 
 //Initializing Express Framework into "app" variable
 const app = express();
@@ -22,6 +23,7 @@ app.get("/", (req, res) => {
 //Mounting Route Middleware
 // path and function(s)
 app.use("/api/v1/jobs", jobRouter);
+app.use("/api/v1/users", userRouter);
 
 //Only returns the Express App.
 module.exports = app;
